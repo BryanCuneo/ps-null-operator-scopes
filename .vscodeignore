@@ -6,3 +6,4 @@
 *.vsix
 node_modules/**
 examples/
+ignore/
