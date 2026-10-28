@@ -1,5 +1,5 @@
 {
-  "name": "powershell-null-operator-scopes",
+  "name": "powershell-null-operators-scopes",
   "displayName": "PowerShell Null Operator Scopes",
   "description": "Adds TextMate scopes for PowerShell 7's null operators.",
   "version": "0.1.0",

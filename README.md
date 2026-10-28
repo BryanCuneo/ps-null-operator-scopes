@@ -1,4 +1,4 @@
-# powershell-null-operator-scopes
+# PowerShell Null Operator Scopes
 A VS Code extension that adds TextMate scopes for PowerShell 7's null operators.
 
 # Table of Contents
@@ -36,7 +36,7 @@ This extension enables you to customize the colors of each operator on top of an
 [Back to top](#powershell-null-operator-scopes)
 
 ## Installation
-This extension is [available in the VS Code Extension Marketplace](https://marketplace.visualstudio.com/items?itemName=BryanCuneo.powershell-null-operator-scopes). You can also [download the latest version](https://github.com/BryanCuneo/powershell-null-operator-scopes/releases/latest) and install it manually. Either graphically with `Ctrl + Shift + P` -> **Developer: Install Extension from Location...** or through the command line with:
+This extension is [available in the VS Code Extension Marketplace](https://marketplace.visualstudio.com/items?itemName=BryanCuneo.powershell-null-operators-scopes). You can also [download the latest version](https://github.com/BryanCuneo/powershell-null-operators-scopes/releases/latest) and install it manually. Either graphically with `Ctrl + Shift + P` -> **Developer: Install Extension from Location...** or through the command line with:
 
 ```PowerShell
 code --install-extension /path/to/extension-version.vsix
