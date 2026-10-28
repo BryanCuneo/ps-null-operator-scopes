@@ -1,0 +1,45 @@
+/* TextMate rule examples. Place them in your settings.json file under:
+{
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            <RULES HERE>
+        ]
+    }
+}
+*/
+// Apply one color to all four operators
+{
+    "scope": "keyword.operator.null-coalescing-assignment.powershell, keyword.operator.null-coalescing.powershell, keyword.operator.null-conditional-member.powershell, keyword.operator.null-conditional-index.powershell",
+    "settings": {
+        "foreground": "#ff0000"
+    }
+}
+// Apply colors to each operator separately
+{
+    // ??=
+    "scope": "keyword.operator.null-coalescing-assignment.powershell",
+    "settings": {
+        "foreground": "#ff6600"
+    }
+},
+{
+    // ??
+    "scope": "keyword.operator.null-coalescing.powershell",
+    "settings": {
+        "foreground": "#f1fa8c"
+    }
+},
+{
+    // ?.
+    "scope": "keyword.operator.null-conditional-member.powershell",
+    "settings": {
+        "foreground": "#50fa7b"
+    }
+},
+{
+    // ?[]
+    "scope": "keyword.operator.null-conditional-index.powershell",
+    "settings": {
+        "foreground": "#ff79c6"
+    }
+}
