@@ -1,5 +1,5 @@
 {
-  "scopeName": "powershell.null-conditional-operators.injection",
+  "scopeName": "powershell.null-operators.injection",
   "injectionSelector": "L:source.powershell -comment -string",
   "patterns": [
     {
