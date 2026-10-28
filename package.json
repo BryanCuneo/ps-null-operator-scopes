@@ -1,0 +1,29 @@
+{
+  "name": "powershell-null-conditional-operator-scopes",
+  "displayName": "PowerShell Null-Conditional Operator Scopes",
+  "description": "Adds TextMate scopes for PowerShell 7's null-conditional operators.",
+  "version": "0.1.0",
+  "publisher": "BryanCuneo",
+  "icon": "images/icon.png",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BryanCuneo/powershell-scope-null-conditional-scopes"
+  },
+  "contributes": {
+    "grammars": [
+      {
+        "scopeName": "powershell.null-conditional-operators.injection",
+        "path": "./syntaxes/null-conditional-operators.json",
+        "injectTo": [
+          "source.powershell"
+        ]
+      }
+    ]
+  }
+}

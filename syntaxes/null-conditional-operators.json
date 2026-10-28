@@ -1,0 +1,22 @@
+{
+  "scopeName": "powershell.null-conditional-operators.injection",
+  "injectionSelector": "L:source.powershell -comment -string",
+  "patterns": [
+    {
+      "match": "\\?\\?=",
+      "name": "keyword.operator.null-coalescing-assignment.powershell"
+    },
+    {
+      "match": "\\?\\?",
+      "name": "keyword.operator.null-coalescing.powershell"
+    },
+    {
+      "match": "(?<=\\})\\?\\.",
+      "name": "keyword.operator.null-conditional-member.powershell"
+    },
+    {
+      "match": "(?<=\\})\\?\\[",
+      "name": "keyword.operator.null-conditional-index.powershell"
+    }
+  ]
+}
